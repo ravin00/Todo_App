@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  postgres:
+    image: postgres
+    container_name: todo_postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: my_pg_user
+      POSTGRES_PASSWORD: password

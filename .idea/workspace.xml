@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da1d9991-584b-42c8-9248-609647d47cd1" name="Changes" comment="TaskController class done">
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="da1d9991-584b-42c8-9248-609647d47cd1" name="Changes" comment="update on pom xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1715681914801" duration="8339000" />
       <workItem from="1715797987882" duration="85000" />
       <workItem from="1715798120457" duration="6800000" />
-      <workItem from="1716411060974" duration="5865000" />
+      <workItem from="1716411060974" duration="6184000" />
     </task>
     <task id="LOCAL-00001" summary="TaskController class done">
       <option name="closed" value="true" />
@@ -113,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716319203689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update on pom xml">
+      <option name="closed" value="true" />
+      <created>1716648989574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716648989574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +128,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -132,7 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TaskController class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TaskController class done" />
+    <MESSAGE value="update on pom xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update on pom xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

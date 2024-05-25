@@ -1,8 +1,14 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Directories and files to exclude
 
+# Build output directories
+target/
+**/src/main/**/target/
+**/src/test/**/target/
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE-specific files and directories
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -36,3 +42,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Node.js specific
+node_modules/

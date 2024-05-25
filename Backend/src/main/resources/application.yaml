@@ -4,12 +4,13 @@ spring:
     username: my_pg_user
     password: password
 
-    jpa:
-      database-platform: org.hibernate.dialect.postgresSQLDialect
-      hibernate:
-        ddl-auto: update
-        properties:
-          hibernate:
-            jdbc:
-              lob:
-                non_contextual_creation: true
+  jpa:
+    database-platform: org.hibernate.dialect.PostgresSQLDialect
+    hibernate:
+      ddl-auto: update
+      properties:
+        hibernate:
+          jdbc:
+            lob:
+              non_contextual_creation: true
+

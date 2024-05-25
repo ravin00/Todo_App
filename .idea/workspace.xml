@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da1d9991-584b-42c8-9248-609647d47cd1" name="Changes" comment="changes done on gitignore file">
-      <change afterPath="$PROJECT_DIR$/postgresql-compose.yaml" afterDir="false" />
+    <list default="true" id="da1d9991-584b-42c8-9248-609647d47cd1" name="Changes" comment="yaml file added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,7 +106,7 @@
       <workItem from="1715681914801" duration="8339000" />
       <workItem from="1715797987882" duration="85000" />
       <workItem from="1715798120457" duration="6800000" />
-      <workItem from="1716411060974" duration="8021000" />
+      <workItem from="1716411060974" duration="10022000" />
     </task>
     <task id="LOCAL-00001" summary="TaskController class done">
       <option name="closed" value="true" />
@@ -129,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716649480870</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="yaml file added">
+      <option name="closed" value="true" />
+      <created>1716651073080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716651073080</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +173,8 @@
     <MESSAGE value="TaskController class done" />
     <MESSAGE value="update on pom xml" />
     <MESSAGE value="changes done on gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes done on gitignore file" />
+    <MESSAGE value="yaml file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="yaml file added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,12 +1,22 @@
 package com.codespecialist.controlers;
 
-import com.codespecialist.models.Task;
-import com.codespecialist.repositories.TaskRepository;
-import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.codespecialist.models.Task;
+import com.codespecialist.repositories.TaskRepository;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -18,12 +28,12 @@ public class TaskController {
     private TaskRepository taskRepository;
 
     @GetMapping
-    public List<Task> list(){
+    public List<Task> list() {
         return taskRepository.findAll();
     }
 
     @GetMapping("{id}")
-    public Task getTask(@PathVariable Long id){
+    public Task getTask(@PathVariable Long id) {
 
         return taskRepository.getById(id);
 
@@ -31,12 +41,12 @@ public class TaskController {
 
     @DeleteMapping
 
-    public void deleteTask(@PathVariable Long id){
+    public void deleteTask(@PathVariable Long id) {
         taskRepository.getById(id);
     }
 
     @PostMapping
-    public Task addTask(@RequestBody String  content){
+    public Task addTask(@RequestBody String content) {
 
         return taskRepository.saveAndFlush(new Task(content));
     }
@@ -49,5 +59,3 @@ public class TaskController {
     }
 
 }
-
-

@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da1d9991-584b-42c8-9248-609647d47cd1" name="Changes" comment="dependency errors fixed">
+    <list default="true" id="da1d9991-584b-42c8-9248-609647d47cd1" name="Changes" comment="frontend added along with the component folder!">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/InputComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgresql-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/codespecialist/controlers/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/codespecialist/controlers/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/codespecialist/repositories/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/codespecialist/repositories/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,28 +35,27 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadAnnotationsAutomatically" value="true" />
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gSD72AF2xBipjOrtociDdf7niA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,9 +70,12 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ravinbandara/Desktop/PP/Todo_App",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,13 +84,15 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "spring.configuration.checksum": "8df0446d6be2bc8c492286a6e8c5e6fc",
+    "ts.external.directory.path": "/Users/ravinbandara/Desktop/PP/Todo_App/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/Backend/.mvn" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -93,10 +106,15 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringGeneralSettings">
-    <option name="allowAutoConfigurationMode" value="true" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="da1d9991-584b-42c8-9248-609647d47cd1" name="Changes" comment="" />
@@ -108,6 +126,12 @@
       <workItem from="1715797987882" duration="85000" />
       <workItem from="1715798120457" duration="6800000" />
       <workItem from="1716411060974" duration="16760000" />
+      <workItem from="1716848721947" duration="32000" />
+      <workItem from="1716849003520" duration="147000" />
+      <workItem from="1716850337842" duration="599000" />
+      <workItem from="1716969841670" duration="961000" />
+      <workItem from="1717363739060" duration="3420000" />
+      <workItem from="1717370103819" duration="2324000" />
     </task>
     <task id="LOCAL-00001" summary="TaskController class done">
       <option name="closed" value="true" />
@@ -184,7 +208,8 @@
     <MESSAGE value="changes done on gitignore file" />
     <MESSAGE value="yaml file added" />
     <MESSAGE value="dependency errors fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency errors fixed" />
+    <MESSAGE value="frontend added along with the component folder!" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend added along with the component folder!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
